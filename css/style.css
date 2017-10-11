@@ -2,8 +2,8 @@ body {
     font-family: Helvetica, sans-serif;
     font-size: 10pt;
     color: #003868;
-    background-color: #80B8E8;
     margin: 6mm;
+    background-color: aquamarine;
 }
 .main_container {
     width: 1000px;
@@ -25,9 +25,7 @@ body {
     margin-bottom: -20000px;
 
 }
-p {
-    text-align: justify;
-}
+
 .asside {
     width: 30%;
     background-color: white;
@@ -38,7 +36,7 @@ p {
     margin-bottom: -20000px;
 }
 
-.list_asside {
+ul {
     list-style-type: none;
 }
 
@@ -46,4 +44,9 @@ p {
     width: 1000px;
     clear: both;
     border: 2px solid black;
+
+}
+
+.footer p {
+    text-align: center;
 }
