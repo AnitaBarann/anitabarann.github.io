@@ -16,6 +16,10 @@ body {
     border: 2px solid black;
 }
 
+.center_block {
+    margin: 0 auto;
+}
+
 .main {
     width: 69.2%;
     border: 2px solid black;
@@ -26,9 +30,8 @@ body {
 
 }
 
-.asside {
+.aside {
     width: 30%;
-    background-color: white;
     float: left;
     border: 2px solid black;
     overflow: hidden;
