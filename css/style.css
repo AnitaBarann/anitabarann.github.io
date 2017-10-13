@@ -5,38 +5,43 @@ body {
     margin: 6mm;
     background-color: aquamarine;
 }
+
 .main_container {
     width: 1000px;
     overflow: hidden;
     border: 2px solid black;
 }
 
-.header_style {
-    width: 100%;
+header {
+    width: 998px;
+    max-height: auto;
     border: 2px solid black;
+}
+
+img {
+    width: 100px;
+    height: 100px;
 }
 
 .center_block {
     margin: 0 auto;
 }
 
-.main {
-    width: 69.2%;
+main {
+    width: 998px;
     border: 2px solid black;
-    float: left;
-    overflow: hidden;
-    padding-bottom: 20000px;
-    margin-bottom: -20000px;
+}
 
+.article_experience {
+    width: 68.8%;
+    border: 2px solid black;
+    display: inline-block;
 }
 
 .aside {
     width: 30%;
-    float: left;
     border: 2px solid black;
-    overflow: hidden;
-    padding-bottom: 20000px;
-    margin-bottom: -20000px;
+    display: inline-block;
 }
 
 ul {
@@ -44,10 +49,8 @@ ul {
 }
 
 .footer {
-    width: 1000px;
-    clear: both;
+    width: 998px;
     border: 2px solid black;
-
 }
 
 .footer p {
